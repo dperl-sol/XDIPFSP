@@ -1,0 +1,24 @@
+#Mask file source for XDIPFSP
+#For the Eiger 9M at Proxima-2a, synchrotron SOLEIL
+
+#define rectangles by the corners
+rectangles:
+#horizontal bars between panels
+- [1030, 0, 1039, 3268]
+- [2070, 0, 2079, 3268]
+- [0, 514, 3109, 550]
+#vertical bars betweem [panels]
+- [0, 1065, 3109, 1101]
+- [0, 1616, 3109, 1652]
+- [0, 2167, 3109, 2203]
+- [0, 2718, 3109, 2754]
+#beampstop shadow
+- [0, 1656, 1480, 1753]
+
+#define circles by the inner and outer radii
+circles:
+- [567,574]
+
+#define pixels by the coordinates
+pixels:
+- [0,0]
