@@ -25,10 +25,7 @@ Manifest.toml
 
 #Data files for testing
 *.h5
-<<<<<<< Updated upstream
-=======
 output/
 data/
 *.yml
 bad_pixels.txt
->>>>>>> Stashed changes
